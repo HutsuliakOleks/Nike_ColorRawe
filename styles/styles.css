@@ -110,7 +110,7 @@ a {
 }
 
 .background {
-  background-image: url("../images/Group37_1_1.png");
+  background-image: url("../images/hero_bg.png");
   width: 1440px;
   height: 858px;
   color: white;
@@ -171,7 +171,7 @@ hr {
 }
 
 .tips {
-  background-image: url("../images/group_8_1.jpg");
+  background-image: url("../images/tips_bg.png");
   width: 1440px;
   height: 606px;
   margin-left: auto;
@@ -227,7 +227,10 @@ hr {
 }
 
 .reviews {
-  background-image: url("../images/group_6_1.jpg");
+  background-image: url("../images/reviews_flowers_bg.png"), url("../images/reviews_bg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 340px 380px, auto;
+  background-position: 1px 0px, 0px 0px;
   width: 1440px;
   height: 520px;
   outline: 2px solid white;
@@ -338,7 +341,7 @@ hr {
 }
 
 .order {
-  background-image: url("../images/group_2_1.jpg");
+  background-image: url("../images/order_bg.png");
   width: 1440px;
   height: 509px;
   margin-left: auto;
