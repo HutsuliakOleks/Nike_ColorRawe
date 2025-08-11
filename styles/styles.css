@@ -364,6 +364,7 @@ input {
   padding-bottom: 19px;
   display: block;
   justify-items: center;
+    row-gap: 19px;
 }
 
 .order_form_text {
@@ -386,6 +387,13 @@ input {
   padding-bottom: 19px;
 }
 
+.order_form_email_styles {
+  width: 690px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .order_form_email_box {
   font-family: var(--font-family);
   font-size: 28px;
@@ -394,6 +402,21 @@ input {
   height: 60px;
   border: none;
   padding-left: 25px;
+}
+
+.order_form_email_button {
+  width: 250px;
+  height: 50px;
+  font-family: var(--font-family);
+  font-size: 28px;
+  border: none;
+  background: none;
+  color: #d8d8d8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 
 .order_button {
@@ -410,6 +433,7 @@ input {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  align-items: center;
 }
 
 .footer {
