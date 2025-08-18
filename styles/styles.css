@@ -111,7 +111,6 @@ a {
   color: white;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid white;
 }
 
 .hero_logo_title {
@@ -175,14 +174,14 @@ hr {
   height: 606px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid white;
+  padding-top: 105px;
+  padding-bottom: 105px;
 }
 
 .tips_list {
   border: 5px solid #8e32c6;
   list-style: none;
   display: flex;
-  margin-top: 105px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -237,6 +236,8 @@ hr {
   outline: 2px solid white;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .reviews_title {
@@ -246,7 +247,6 @@ hr {
   font-size: 48px;
   text-align: center;
   margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 .reviews_list {
@@ -254,6 +254,8 @@ hr {
   display: flex;
   column-gap: 93px;
   justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 14px;
 }
 
 .reviews_list_item:nth-child(1) {
@@ -347,6 +349,8 @@ hr {
   height: 509px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 21px;
+  padding-bottom: 37px;
 }
 
 .order_title {
@@ -373,7 +377,7 @@ input {
 
 .order_form_text {
   display: block;
-  padding-bottom: 19px;
+  padding-bottom: 12px;
 }
 
 .order_form_text_box {
@@ -443,20 +447,21 @@ input {
 .footer {
   background-color: #021635;
   width: 1440px;
-  height: 292px;
-  text-justify: left;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  padding-top: 45px;
+  padding-bottom: 52px;
 }
 
 .footer_list {
   color: white;
-  padding-top: 45px;
-  padding-bottom: 20px;
-  display: flex;
+  margin-bottom: 20px;
   row-gap: 0px;
-  flex-direction: column;
+}
+
+.footer_list_item {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer_list_item_question {
@@ -467,9 +472,6 @@ input {
 }
 
 .footer_list_item_address {
-  display: block;
-  text-decoration-skip-ink: none;
-  text-align: right;
   margin-top: -27px;
 }
 
