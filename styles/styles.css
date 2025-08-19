@@ -111,12 +111,14 @@ a {
 
 .hero {
   background-image: url("../images/hero_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 1440px;
-  height: 858px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 99px;
-  padding-bottom: 40px;
+  padding-bottom: 183px;
 }
 
 .hero_logo_title {
